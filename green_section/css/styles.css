@@ -1,0 +1,63 @@
+body
+{
+  margin:0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+}
+
+svg
+{
+  float:left;
+  padding:70px 70px 20px;
+  margin-right: 20px;
+}
+
+.left
+{
+  position:absolute;
+  right:6.25em;
+  top:5em;
+  left:43.75em;
+  padding:20px;
+}
+
+
+
+p
+{
+  font-size:18px;
+  color: hsl(208, 11%, 55%);
+}
+
+@media only screen and (max-width:1200px)
+{svg
+  {
+    height:200px;
+    width:200px;
+  }
+  .left
+  {
+    top:2em;
+    left:25em;
+    right:3em;
+  }
+
+}
+
+
+@media only screen and (max-width:800px)
+{ svg
+  {
+    width:80%;
+    text-align: center;
+    padding-left: 30px;
+  }
+  .left
+  {
+    clear:left;
+    position:static;
+    text-align: center;
+  }
+
+
+}
